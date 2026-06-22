@@ -1,0 +1,24 @@
+@import url('shared.css');
+
+:root {
+  --bg: #faf6f2;
+  --bg-elevated: #fffdfb;
+  --ink: #2c2420;
+  --ink-muted: #6b5e56;
+  --accent: #b45309;
+  --accent-soft: #fde8cc;
+  --sage: #92400e;
+  --sage-soft: #fef3e2;
+  --border: rgba(44, 36, 32, 0.1);
+  --shadow: 0 4px 24px rgba(44, 36, 32, 0.06);
+  --shadow-lg: 0 20px 60px rgba(44, 36, 32, 0.1);
+  --radius: 14px;
+  --radius-lg: 22px;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Nunito Sans", system-ui, sans-serif;
+  --nav-h: 72px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --case-bg: #2c2420;
+}
+
+.hero-title { font-weight: 500; }
