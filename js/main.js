@@ -1,16 +1,16 @@
-/* Case study content — shared across all portfolio versions */
+/* Case study content, shared across all portfolio versions */
 const CASES = {
   univo: {
     title: "AI Career Advisory & Digital Admissions",
-    meta: "UNIVO Education · Product Management Intern · Jul 2026–Present",
+    meta: "UNIVO Education · Product Management Intern · Jul 2026 to Present",
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>Prospective students needed trustworthy career guidance before enrolling, while BSIL's admission journey spanned many systems — creating drop-off, integration gaps, and slow ops handoffs.</p>
+        body: `<p>Prospective students needed trustworthy career guidance before enrolling, while BSIL's admission journey spanned many systems, creating drop-off, integration gaps, and slow ops handoffs.</p>
         <ul>
           <li>Lead generation lacked value-first touchpoints beyond generic forms</li>
           <li>Career recommendations needed to be personalized yet grounded in program reality</li>
-          <li>Admission flows touched OTP, CRM, payments, eligibility, refunds, financing, and LMS — with fragile handoffs</li>
+          <li>Admission flows touched OTP, CRM, payments, eligibility, refunds, financing, and LMS, with fragile handoffs</li>
         </ul>`
       },
       approach: {
@@ -37,7 +37,7 @@ const CASES = {
         heading: "Key Learnings",
         body: `<ul>
           <li>EdTech lead gen works when the <strong>first interaction delivers insight</strong>, not when it only captures contact info</li>
-          <li>Multi-system journeys need <strong>explicit ownership per integration</strong> — otherwise metrics blur across funnel stages</li>
+          <li>Multi-system journeys need <strong>explicit ownership per integration</strong>; otherwise metrics blur across funnel stages</li>
           <li>LLM features in regulated domains require <strong>taxonomy + rules before scale</strong>, not prompt tweaks alone</li>
         </ul>`
       }
@@ -45,11 +45,11 @@ const CASES = {
   },
   darwix: {
     title: "Voice Automation & Real-Time Agent Assist",
-    meta: "Darwix AI · Product Management Intern · Feb–May 2026",
+    meta: "Darwix AI · Product Management Intern · Feb to May 2026",
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>BFSI contact centers handled high-volume inbound calls across leads, callbacks, and loan inquiries — but agents lacked real-time guidance, and voice automation workflows weren't standardized across use cases.</p>
+        body: `<p>BFSI contact centers handled high-volume inbound calls across leads, callbacks, and loan inquiries, but agents lacked real-time guidance, and voice automation workflows weren't standardized across use cases.</p>
         <ul>
           <li>Manual agent workflows caused inconsistent resolution quality</li>
           <li>No unified KPI framework to measure GenAI product performance</li>
@@ -58,11 +58,11 @@ const CASES = {
       },
       approach: {
         heading: "My Approach",
-        body: `<p>I owned PRD requirements end-to-end — mapping 5+ BFSI workflows, defining success KPIs, and aligning engineering on what to ship first.</p>
+        body: `<p>I owned PRD requirements end-to-end, mapping 5+ BFSI workflows, defining success KPIs, and aligning engineering on what to ship first.</p>
         <ul>
           <li><strong>Workflow mapping:</strong> Documented lead qualification, callback routing, and loan inquiry flows with trigger conditions and edge cases</li>
           <li><strong>Agent Assist PRD:</strong> Specified LLM prompt architecture, knowledge retrieval layers, and contextual response recommendations for live calls</li>
-          <li><strong>GenAI KPI framework:</strong> Monitored 6+ KPIs — latency, intent accuracy, adoption, resolution rate, escalation rate, and usage</li>
+          <li><strong>GenAI KPI framework:</strong> Monitored 6+ KPIs: latency, intent accuracy, adoption, resolution rate, escalation rate, and usage</li>
         </ul>`
       },
       impact: {
@@ -78,8 +78,8 @@ const CASES = {
       learnings: {
         heading: "Key Learnings",
         body: `<ul>
-          <li>GenAI products need <strong>separate KPIs for model quality and user adoption</strong> — optimizing one without the other creates false wins</li>
-          <li>Agent-facing AI must account for <strong>latency budgets</strong> — sub-second recommendations matter more than perfect answers</li>
+          <li>GenAI products need <strong>separate KPIs for model quality and user adoption</strong>; optimizing one without the other creates false wins</li>
+          <li>Agent-facing AI must account for <strong>latency budgets</strong>; sub-second recommendations matter more than perfect answers</li>
           <li>PRDs for voice products require <strong>exception paths</strong> (escalation, fallback, silence) not just happy-path flows</li>
         </ul>`
       }
@@ -87,11 +87,11 @@ const CASES = {
   },
   hero: {
     title: "H.Ai Chatbot & Dealer Portfolio Visibility",
-    meta: "Hero Fincorp · Business Technology Solutions Intern · May–Aug 2025",
+    meta: "Hero Fincorp · Business Technology Solutions Intern · May to Aug 2025",
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>Hero Fincorp's lending operations faced fragmented dealer data and low chatbot resolution rates — dealers couldn't get reliable portfolio visibility, and H.Ai struggled with intent coverage gaps.</p>
+        body: `<p>Hero Fincorp's lending operations faced fragmented dealer data and low chatbot resolution rates; dealers couldn't get reliable portfolio visibility, and H.Ai struggled with intent coverage gaps.</p>
         <ul>
           <li>Inconsistent dealer codes caused downstream workflow failures</li>
           <li>Loan disbursal status was hard to track for dealer partners</li>
@@ -121,8 +121,8 @@ const CASES = {
       learnings: {
         heading: "Key Learnings",
         body: `<ul>
-          <li>Fintech products require <strong>validation at the data layer</strong> — fixing UI alone doesn't solve inconsistent upstream codes</li>
-          <li>Chatbot design is <strong>intent architecture</strong>, not copywriting — triggers and fallbacks matter as much as responses</li>
+          <li>Fintech products require <strong>validation at the data layer</strong>; fixing UI alone doesn't solve inconsistent upstream codes</li>
+          <li>Chatbot design is <strong>intent architecture</strong>, not copywriting; triggers and fallbacks matter as much as responses</li>
           <li>Being the bridge between business and engineering means <strong>writing specs engineers can implement without guessing</strong></li>
         </ul>`
       }
@@ -130,11 +130,11 @@ const CASES = {
   },
   "resume-ai": {
     title: "AI Resume Screening & Relevance Scoring",
-    meta: "Personal Project · Nov–Dec 2025",
+    meta: "Personal Project · Nov to Dec 2025",
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>Recruiters spend hours manually screening resumes — comparing skills against job descriptions with no structured scoring or explainability.</p>
+        body: `<p>Recruiters spend hours manually screening resumes, comparing skills against job descriptions with no structured scoring or explainability.</p>
         <ul>
           <li>Manual screening doesn't scale for high-volume hiring</li>
           <li>No consistent way to explain why a candidate matched or didn't</li>
@@ -143,19 +143,19 @@ const CASES = {
       },
       approach: {
         heading: "My Approach",
-        body: `<p>I designed an end-to-end AI workflow — from ingestion to scored, explainable output.</p>
+        body: `<p>I designed an end-to-end AI workflow, from ingestion to scored, explainable output.</p>
         <ul>
           <li><strong>Structured extraction:</strong> Parsed resume data into normalized skill and experience fields</li>
-          <li><strong>Semantic matching:</strong> Built relevance scoring (0–100) with skill gap analysis</li>
+          <li><strong>Semantic matching:</strong> Built relevance scoring (0-100) with skill gap analysis</li>
           <li><strong>Explainability:</strong> Every score comes with reasoning recruiters can act on</li>
           <li><strong>Delivery:</strong> Automated Google Sheets dashboard for consistent, scalable shortlisting</li>
         </ul>`
       },
       impact: {
         heading: "Impact & Metrics",
-        body: `<p>Demonstrated product thinking applied to a real hiring pain point — with a shippable MVP, not a slide deck.</p>`,
+        body: `<p>Demonstrated product thinking applied to a real hiring pain point with a shippable MVP, not a slide deck.</p>`,
         metrics: [
-          { value: "0–100", label: "Relevance score scale" },
+          { value: "0-100", label: "Relevance score scale" },
           { value: "↓", label: "Manual screening effort" },
           { value: "✓", label: "Explainable insights" },
           { value: "Auto", label: "Sheets dashboard" }
@@ -165,7 +165,7 @@ const CASES = {
         heading: "Key Learnings",
         body: `<ul>
           <li>AI products for non-technical users need <strong>explainability as a first-class feature</strong></li>
-          <li>The best MVP delivers output where users already work — <strong>Sheets, not a new dashboard</strong></li>
+          <li>The best MVP delivers output where users already work, <strong>Sheets, not a new dashboard</strong></li>
           <li>Scoring systems require <strong>calibration conversations</strong> with users to define what "good" looks like</li>
         </ul>`
       }
@@ -173,11 +173,11 @@ const CASES = {
   },
   photogrammetry: {
     title: "Photogrammetry Workflow for 3D Modelling",
-    meta: "Team Project · Dec 2024–Mar 2025",
+    meta: "Team Project · Dec 2024 to Mar 2025",
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>Turning 360° image datasets into explorable 3D models was manual, slow, and inconsistent — limiting campus visualization and stakeholder demos.</p>
+        body: `<p>Turning 360° image datasets into explorable 3D models was manual, slow, and inconsistent, limiting campus visualization and stakeholder demos.</p>
         <ul>
           <li>Long turnaround from capture to usable 3D assets</li>
           <li>Quality varied across structural and color fidelity</li>
@@ -207,7 +207,7 @@ const CASES = {
       learnings: {
         heading: "Key Learnings",
         body: `<ul>
-          <li>3D products need <strong>explicit accuracy dimensions</strong> — structure and color fail for different reasons</li>
+          <li>3D products need <strong>explicit accuracy dimensions</strong>; structure and color fail for different reasons</li>
           <li>Automation wins come from <strong>standardizing inputs</strong>, not only speeding up one processing step</li>
           <li>Interactive demos benefit from <strong>scoped scenes</strong> (e.g., canteen) before full-campus ambition</li>
         </ul>`
@@ -220,7 +220,7 @@ const CASES = {
     tabs: {
       problem: {
         heading: "The Problem",
-        body: `<p>LeonardoAI faced declining user retention in a competitive creative AI market — users tried the product but didn't form lasting habits.</p>
+        body: `<p>LeonardoAI faced declining user retention in a competitive creative AI market; users tried the product but didn't form lasting habits.</p>
         <ul>
           <li>Unclear which user behaviors predicted long-term retention</li>
           <li>No cohort-level view of activation and drop-off patterns</li>
@@ -250,7 +250,7 @@ const CASES = {
       learnings: {
         heading: "Key Learnings",
         body: `<ul>
-          <li>Retention work starts with <strong>defining the activation event</strong> — not all first actions are equal</li>
+          <li>Retention work starts with <strong>defining the activation event</strong>; not all first actions are equal</li>
           <li>Early behavior combos (within 7 days) are strong predictors of long-term retention</li>
           <li>PMs should pair <strong>quantitative cohort analysis with qualitative "why" hypotheses</strong> before proposing features</li>
         </ul>`
