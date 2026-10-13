@@ -1,5 +1,48 @@
 /* Case study content — shared across all portfolio versions */
 const CASES = {
+  univo: {
+    title: "AI Career Advisory & Digital Admissions",
+    meta: "UNIVO Education · Product Management Intern · Jul 2026–Present",
+    tabs: {
+      problem: {
+        heading: "The Problem",
+        body: `<p>Prospective students needed trustworthy career guidance before enrolling, while BSIL's admission journey spanned many systems — creating drop-off, integration gaps, and slow ops handoffs.</p>
+        <ul>
+          <li>Lead generation lacked value-first touchpoints beyond generic forms</li>
+          <li>Career recommendations needed to be personalized yet grounded in program reality</li>
+          <li>Admission flows touched OTP, CRM, payments, eligibility, refunds, financing, and LMS — with fragile handoffs</li>
+        </ul>`
+      },
+      approach: {
+        heading: "My Approach",
+        body: `<p>I shaped product requirements for an AI career advisory experience and mapped the end-to-end admission journey across teams and vendors.</p>
+        <ul>
+          <li><strong>Career advisory PRD:</strong> Skill-gap analysis, roadmaps, and program recommendations designed for lead gen that leads with value</li>
+          <li><strong>3-layer AI architecture:</strong> Rules Engine + Career Taxonomy + RAG/LLM with guardrails for reliable, explainable recommendations</li>
+          <li><strong>Admission journey revamp:</strong> Documented 7+ integrations (Salesforce, Amizone, payments, eligibility, refunds, financing, LMS provisioning)</li>
+          <li><strong>Funnel analytics:</strong> Weekly/monthly and page-level views across 5+ program funnels to trace metric shifts and root causes</li>
+        </ul>`
+      },
+      impact: {
+        heading: "Impact & Metrics",
+        body: `<p>Shipped advisory workflows and clearer admission specs that engineering and ops could execute against.</p>`,
+        metrics: [
+          { value: "3", label: "AI recommendation layers" },
+          { value: "7+", label: "Systems in admission flow" },
+          { value: "5+", label: "Program funnels analyzed" },
+          { value: "RAG", label: "Grounded LLM guardrails" }
+        ]
+      },
+      learnings: {
+        heading: "Key Learnings",
+        body: `<ul>
+          <li>EdTech lead gen works when the <strong>first interaction delivers insight</strong>, not when it only captures contact info</li>
+          <li>Multi-system journeys need <strong>explicit ownership per integration</strong> — otherwise metrics blur across funnel stages</li>
+          <li>LLM features in regulated domains require <strong>taxonomy + rules before scale</strong>, not prompt tweaks alone</li>
+        </ul>`
+      }
+    }
+  },
   darwix: {
     title: "Voice Automation & Real-Time Agent Assist",
     meta: "Darwix AI · Product Management Intern · Feb–May 2026",
@@ -10,7 +53,7 @@ const CASES = {
         <ul>
           <li>Manual agent workflows caused inconsistent resolution quality</li>
           <li>No unified KPI framework to measure GenAI product performance</li>
-          <li>Two GenAI products competing for engineering bandwidth without clear prioritization</li>
+          <li>No single view of GenAI health across latency, accuracy, adoption, and resolution</li>
         </ul>`
       },
       approach: {
@@ -19,8 +62,7 @@ const CASES = {
         <ul>
           <li><strong>Workflow mapping:</strong> Documented lead qualification, callback routing, and loan inquiry flows with trigger conditions and edge cases</li>
           <li><strong>Agent Assist PRD:</strong> Specified LLM prompt architecture, knowledge retrieval layers, and contextual response recommendations for live calls</li>
-          <li><strong>Roadmap prioritization:</strong> Used impact vs. effort trade-offs across 2 GenAI products, factoring model latency, accuracy, and adoption</li>
-          <li><strong>Metrics dashboard:</strong> Defined 6+ KPIs — latency, intent accuracy, adoption, resolution rate, escalation rate, and usage</li>
+          <li><strong>GenAI KPI framework:</strong> Monitored 6+ KPIs — latency, intent accuracy, adoption, resolution rate, escalation rate, and usage</li>
         </ul>`
       },
       impact: {
@@ -30,7 +72,7 @@ const CASES = {
           { value: "50+", label: "Agents on Agent Assist" },
           { value: "5+", label: "BFSI workflows mapped" },
           { value: "6+", label: "GenAI KPIs tracked" },
-          { value: "2", label: "Products prioritized on roadmap" }
+          { value: "Live", label: "Contact-center production use" }
         ]
       },
       learnings: {
@@ -129,6 +171,49 @@ const CASES = {
       }
     }
   },
+  photogrammetry: {
+    title: "Photogrammetry Workflow for 3D Modelling",
+    meta: "Team Project · Dec 2024–Mar 2025",
+    tabs: {
+      problem: {
+        heading: "The Problem",
+        body: `<p>Turning 360° image datasets into explorable 3D models was manual, slow, and inconsistent — limiting campus visualization and stakeholder demos.</p>
+        <ul>
+          <li>Long turnaround from capture to usable 3D assets</li>
+          <li>Quality varied across structural and color fidelity</li>
+          <li>No repeatable pipeline the team could run without specialist bottlenecks</li>
+        </ul>`
+      },
+      approach: {
+        heading: "My Approach",
+        body: `<p>I designed an end-to-end workflow focused on exploration UX and measurable quality targets.</p>
+        <ul>
+          <li><strong>Pipeline design:</strong> End-to-end flow from 360° datasets to interactive models</li>
+          <li><strong>Automation:</strong> Reduced manual steps to cut processing time ~35%</li>
+          <li><strong>Quality bar:</strong> Campus canteen deliverable with 75% structural and 92% color accuracy targets</li>
+          <li><strong>Production readiness:</strong> Assets packaged for stakeholder review and iteration</li>
+        </ul>`
+      },
+      impact: {
+        heading: "Impact & Metrics",
+        body: `<p>Delivered production-ready 3D assets with a faster, repeatable pipeline the team could reuse.</p>`,
+        metrics: [
+          { value: "35%", label: "Faster turnaround" },
+          { value: "75%", label: "Structural accuracy" },
+          { value: "92%", label: "Color accuracy" },
+          { value: "360°", label: "Image-to-model workflow" }
+        ]
+      },
+      learnings: {
+        heading: "Key Learnings",
+        body: `<ul>
+          <li>3D products need <strong>explicit accuracy dimensions</strong> — structure and color fail for different reasons</li>
+          <li>Automation wins come from <strong>standardizing inputs</strong>, not only speeding up one processing step</li>
+          <li>Interactive demos benefit from <strong>scoped scenes</strong> (e.g., canteen) before full-campus ambition</li>
+        </ul>`
+      }
+    }
+  },
   leonardo: {
     title: "LeonardoAI User Retention Strategy",
     meta: "Product Case Study · Creative AI Platform",
@@ -215,7 +300,7 @@ document.querySelectorAll(".case-card").forEach(card => {
   card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(); } });
 });
 
-renderCase("darwix");
+renderCase("univo");
 
 const nav = document.getElementById("nav");
 window.addEventListener("scroll", () => nav.classList.toggle("scrolled", window.scrollY > 40), { passive: true });
